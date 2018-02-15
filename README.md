@@ -1,4 +1,4 @@
-# aws-codebuild-extras ![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiUkxsV0l4UDBkWmh1Z1NIbm9wTENycVl4d1pDTTYrc1I3dzhFSlQ1QWFQdDl1Tm10NGduZklrTWVON1Vock5rOHVJV0xGYWhwT0V0cWVtMFg2WWRLTVlZPSIsIml2UGFyYW1ldGVyU3BlYyI6InhrOHdIV0FzY3Y1dmZ0SGwiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+# aws-codebuild-extras ![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiS2NyUEZXUjJUQ2ZqRi9HeVFIWE5FWldMK1VOb29xbmVZWjBpdG9VV0ZDc2ZiRVdMcXJ1b3lML0hEWk9XS0hlL2xjM0V5NHVwZEdoSWZDMHRpV1NsQkxvPSIsIml2UGFyYW1ldGVyU3BlYyI6InRVa01aeDVFM05ja3hOT0EiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 Add extra information of your AWS CodeBuild build via environment variables.
 
 ## Usage
