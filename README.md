@@ -4,5 +4,7 @@ Add extra information of your AWS CodeBuild build via environment variables.
 ## Usage
 
 Add the following command to the `install` or `pre_build` phase of your buildspec:
-
-    eval "$(curl -fsSL https://raw.githubusercontent.com/alessandrobologna/aws-codebuild-extras/master/install)"
+```
+- curl -fsSL -o /tmp/install https://raw.githubusercontent.com/alessandrobologna/aws-codebuild-extras/master/install
+- . /tmp/install
+```
