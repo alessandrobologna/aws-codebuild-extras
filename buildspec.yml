@@ -3,7 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-      - cat /codebuild/output/tmp/script.sh
       - curl -fsSL -o /tmp/install https://raw.githubusercontent.com/alessandrobologna/aws-codebuild-extras/master/install
       - . /tmp/install
   build:
