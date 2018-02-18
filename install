@@ -13,7 +13,7 @@ CODEBUILD_GIT_AUTHOR=`git log -1 --pretty=%an`
 CODEBUILD_GIT_AUTHOR_EMAIL=`git log -1 --pretty=%ae`
 CODEBUILD_GIT_COMMIT=`git log -1 --pretty=%H`
 CODEBUILD_GIT_TAG=`git describe --tags --abbrev=0`
-
+CODEBUILD_GIT_SHORT_HASH=`git log -1 --pretty=%h`
 CODEBUILD_PULL_REQUEST=false
 
 if [ "${CODEBUILD_GIT_BRANCH#pr-}" != "$CODEBUILD_GIT_BRANCH" ]; then

@@ -24,6 +24,7 @@ phases:
 |CODEBUILD_GIT_AUTHOR_EMAIL|user@example.com|
 |CODEBUILD_GIT_BRANCH|branch name|
 |CODEBUILD_GIT_COMMIT|commit hash|
+|CODEBUILD_GIT_SHORT_HASH|commit short hash|
 |CODEBUILD_GIT_MESSAGE|commit message|
 |CODEBUILD_GIT_TAG|git tag|
 |CODEBUILD_PROJECT|project|
