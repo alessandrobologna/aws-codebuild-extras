@@ -16,3 +16,15 @@ phases:
     commands:
       - env
 ```
+|NAME|VALUE
+|---|---|
+|CI|true|
+|CODEBUILD|true|
+|CODEBUILD_GIT_AUTHOR|Committer Name|
+|CODEBUILD_GIT_AUTHOR_EMAIL|user@example.com|
+|CODEBUILD_GIT_BRANCH|branch name|
+|CODEBUILD_GIT_COMMIT|commit hash|
+|CODEBUILD_GIT_MESSAGE|commit message|
+|CODEBUILD_GIT_TAG|git tag|
+|CODEBUILD_PROJECT|project|
+|CODEBUILD_PULL_REQUEST|Pull request number|
